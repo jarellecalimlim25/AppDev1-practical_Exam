@@ -2,8 +2,9 @@ import { APP_DESCRIPTION } from '../constants';
 
 function Footer() {
   return (
-    <footer>
+    <footer className="site-header">
       <p>{APP_DESCRIPTION}</p>
+      <p>Created with React</p>
     </footer>
   );
 }

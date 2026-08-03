@@ -1,18 +1,15 @@
 import PageHeader from './components/layout/Header';
 import PageFooter from './components/layout/Footer';
-import Item from './components/inventory/Item';
 import ItemList from './components/inventory/ItemList';
 import Divider from './components/inventory/Divider';
 
 function App() {
   return (
-    <>
+    <div className="inventory-page">
       <PageHeader />
 
-      <main>
-        <h2>Inventory List</h2>
-
-        <Item name="Monitor" quantity={8} />
+      <main className="inventory-main">
+        <h2 className="inventory-title">Inventory List</h2>
 
         <ItemList />
 
@@ -20,7 +17,7 @@ function App() {
       </main>
 
       <PageFooter />
-    </>
+    </div>
   );
 }
 

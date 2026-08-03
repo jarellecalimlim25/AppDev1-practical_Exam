@@ -1,13 +1,12 @@
-import { APP_NAME, APP_DESCRIPTION } from '../constants';
+import './Header.css';
 
 function Header() {
   return (
     <>
-      <header>
-        <h1>{APP_NAME}</h1>
+      <header className="site-header">
+        <h1>Inventory Management</h1>
+        <p>APPDEV1 Midterm Practical Exam</p>
       </header>
-
-      <p>{APP_DESCRIPTION}</p>
     </>
   );
 }

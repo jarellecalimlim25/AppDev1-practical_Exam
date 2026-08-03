@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f1ea;
+  color: #333333;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.inventory-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.inventory-main {
+  flex: 1;
+  padding: 30px;
+}
+
+.inventory-title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.inventory-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+}

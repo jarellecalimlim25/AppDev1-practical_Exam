@@ -8,7 +8,7 @@ function Item({ name, quantity }) {
   }
 
   return (
-    <article>
+    <article className="inventory-item">
       <h3>{name}</h3>
 
       <p>Item Code: {getItemCode()}</p>
