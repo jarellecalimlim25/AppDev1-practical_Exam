@@ -1,7 +1,9 @@
+import { APP_DESCRIPTION } from '../constants';
+
 function Footer() {
   return (
     <footer>
-      <p>&copy; APPDEV1 Midterm Practical Exam</p>
+      <p>{APP_DESCRIPTION}</p>
     </footer>
   );
 }
